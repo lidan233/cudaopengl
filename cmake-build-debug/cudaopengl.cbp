@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cudaopengl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cudaopengl">
+				<Option output="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug/cudaopengl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/externel/glad/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/cudalib"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 cudaopengl"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cudaopengl/fast">
+				<Option output="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug/cudaopengl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/externel/glad/include"/>
+					<Add directory="C:/Users/lidan/CLionProjects/cudaopengl/cudalib"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 cudaopengl/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\lidan\CLionProjects\cudaopengl\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/cudalib/help_gl.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/cudalib/helper_cuda.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/cudalib/helper_string.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/externel/glad/include/KHR/khrplatform.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/externel/glad/include/glad/glad.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/externel/glad/src/glad.cu">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include/GLFW/glfw3.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include/GLFW/glfw3native.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/main.cu">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/GLSL_Program.cpp">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/GLSL_Program.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/Shader.cpp">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/Shader.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/gl_tools.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/glfw_tools.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/kernel.cu">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/shader_common.h">
+			<Option target="cudaopengl"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/cmake/LidanBase.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/lidan/CLionProjects/cudaopengl/cmake/LidanBuild.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

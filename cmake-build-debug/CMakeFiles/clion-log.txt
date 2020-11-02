@@ -1,0 +1,21 @@
+"D:\software\clion\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\lidan\CLionProjects\cudaopengl
+-- include LidanBase.cmake
+-- include LidanBuild.cmake
+-- Add C:/Users/lidan/CLionProjects/cudaopengl/cudalib;
+-- C:/Users/lidan/CLionProjects/cudaopengl/cudalib/help_gl.hC:/Users/lidan/CLionProjects/cudaopengl/cudalib/helper_cuda.hC:/Users/lidan/CLionProjects/cudaopengl/cudalib/helper_string.h
+-- Add C:/Users/lidan/CLionProjects/cudaopengl/externel/;
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel//glad/include/KHR/khrplatform.hC:/Users/lidan/CLionProjects/cudaopengl/externel//glad/include/glad/glad.hC:/Users/lidan/CLionProjects/cudaopengl/externel//glad/src/glad.cuC:/Users/lidan/CLionProjects/cudaopengl/externel//glfw/include/GLFW/glfw3.hC:/Users/lidan/CLionProjects/cudaopengl/externel//glfw/include/GLFW/glfw3native.h
+-- Add C:/Users/lidan/CLionProjects/cudaopengl/shader_tools;
+-- C:/Users/lidan/CLionProjects/cudaopengl/shader_tools/GLSL_Program.cppC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/GLSL_Program.hC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/Shader.cppC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/Shader.hC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/gl_tools.hC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/glfw_tools.hC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/kernel.cuC:/Users/lidan/CLionProjects/cudaopengl/shader_tools/shader_common.h
+-- ----------
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/ TRUE glfw3 
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw
+-- Add C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include;
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include/GLFW/glfw3.hC:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include/GLFW/glfw3native.h
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw
+-- include C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/include/}
+-- C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/lib-vc2019/glfw3
+-- link C:/Users/lidan/CLionProjects/cudaopengl/externel/glfw/lib-vc2019/glfw3.dll
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/lidan/CLionProjects/cudaopengl/cmake-build-debug
